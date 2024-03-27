@@ -26,12 +26,14 @@ public class ChampionsJdbcRepository implements ChampionsRepository{
                 rs.getString("image_url")
             );
     }
-
+    //acrecentar o @SuppressWarnings
+    @SuppressWarnings("null")
     @Override
     public List<Champions> findAll() {
         return jdbcTemplate.query("SELECT * FROM CHAMPIONS", rowMapper);
     }
-
+    //acrecentar o @SuppressWarnings
+    @SuppressWarnings("null")
     @Override
     public Optional<Champions> findById(Long id) {
         String sql = "SELECT * FROM CHAMPIONS WHERE ID = ?";

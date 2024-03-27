@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "me.dio.sdw2024.Application",
+            "projectName": "santander-dev-week-26-03-24"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SantanderDevWeek260324Application<santander-dev-week-26-03-24>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "me.dio.sdw2024.SantanderDevWeek260324Application",
+            "projectName": "santander-dev-week-26-03-24",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -30,12 +30,14 @@ replay_pid*
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+.vscode/settings.json
 
 # Gradle
 .gradle/*
 
 bin/*
 build/*
+
 
 
 

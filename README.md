@@ -11,6 +11,7 @@
 <a id="topo"></a>
 
 - [Sobre o Projeto](#sobre-o-projeto)
+- [Instrutores](#instrutor)
 - [Pré-Requisitos](#pré-requisitos)
 - [Agenda das Lives](#agenda-das-lives)
 - [Como Participar dos Bootcamps Santander 2024](#como-participar-dos-bootcamps-santander-2024)
@@ -18,7 +19,7 @@
   - [Diagrama Arquitetural](#diagrama-arquitetural)
   - [Estrutura de Diretórios](#estrutura-de-diretórios)
   - [Banco de Dados SQL em Memória](#banco-de-dados-sql-em-memória)
-- [Contribuições](#contribuições)
+<!-- - [Contribuições](#contribuições) -->
 - [Na Prática](#na-prática)
     - [Iniciando o seu Primeiro Projeto Java do Zero](#iniciando-o-seu-primeiro-projeto-java-do-zero)
     - [Criando uma API com os Campeões do League of Legends](#criando-uma-api-com-os-campeões-do-league-of-legends)
@@ -41,6 +42,10 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
+
+## <a name="instrutor"> Instrutores </a>
+
+- [Venilton FalvoJr](https://github.com/falvojr) - Doutorando no ICMC-USP, onde contribui junto ao CAEd. Atualmente é Tech Lead na DIO (dio.me), uma edtech que visa democratizar o ensino e capacitação em TI.
 
 ## <a name="pré-requisitos"></a>Pré-Requisitos
 
@@ -181,7 +186,7 @@ INSERT INTO champions (name, role, lore, image_url) VALUES
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
 
-## <a name="contribuições"></a>Contribuições
+<!-- ## <a name="contribuições"></a>Contribuições
 
 Contribuições são sempre bem-vindas! Veja como você pode contribuir:
 
@@ -193,7 +198,7 @@ Contribuições são sempre bem-vindas! Veja como você pode contribuir:
 
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
-</p>
+</p> -->
 
 ## <a name="na-prática"></a>Na Prática
 

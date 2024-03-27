@@ -1,8 +1,8 @@
 
 # Santander Dev Week 2024
-| ![Logo](https://cdn.greatpages.com.br/pages.dio.me-santander-dev-week-2024/1710167332/imagens/desktop/508652_1_170975207481626005.png) | ![DIO](https://asset.brandfetch.io/idUQfJyQk7/idX7UJdxye.jpeg) |
-|:---:|:---:|
-| Participei do Santander Dev Week online! Aprendi a criar um Chat Inteligente com os Campeões de LOL usando APIs, Java, Spring Boot, IA e Páginas Web. Ganhei habilidades fullstack com aulas práticas e aumentei minhas chances de contratação.| |
+| ![Logo](https://cdn.greatpages.com.br/pages.dio.me-santander-dev-week-2024/1710167332/imagens/desktop/508652_1_170975207481626005.png) ![DIO](https://asset.brandfetch.io/idUQfJyQk7/idX7UJdxye.jpeg) |
+|:---:|
+| Participei do Santander Dev Week online! Aprendi a criar um Chat Inteligente com os Campeões de LOL usando APIs, Java, Spring Boot, IA e Páginas Web. Ganhei habilidades fullstack com aulas práticas e aumentei minhas chances de contratação.|
 
 #Java #Spring #POO
 

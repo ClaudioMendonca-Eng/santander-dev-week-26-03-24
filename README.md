@@ -218,6 +218,8 @@ Ao longo da semana, continuaremos a desenvolver nosso projeto, explorando temas 
 
 [ ]: # (Adicionar o conteúdo do segundo dia da Dev Week 2024)
 
+Anotações do segundo dia da Dev Week 2024: http://127.0.0.1:8080/swagger-ui.html
+
 ### <a name="potencializando-sua-api-com-inteligência-artificial-ia"></a>Potencializando sua API com Inteligência Artificial (IA)
 
 [ ]: # (Adicionar o conteúdo do terceiro dia da Dev Week 2024)

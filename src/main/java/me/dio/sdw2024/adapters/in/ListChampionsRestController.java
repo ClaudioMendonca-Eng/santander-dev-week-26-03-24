@@ -6,9 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import me.dio.sdw2024.application.ListChampionsUseCase;
 import me.dio.sdw2024.domain.model.Champions;
 
+@Tag(name = "Campeões", description = "Endpoint para listar todos os campeões")
 @RestController
 @RequestMapping("/champions")
 public record ListChampionsRestController(ListChampionsUseCase useCase) {

@@ -216,9 +216,19 @@ Ao longo da semana, continuaremos a desenvolver nosso projeto, explorando temas 
 
 ### <a name="criando-uma-api-com-os-campeões-do-league-of-legends"></a>Criando uma API com os Campeões do League of Legends
 
-[ ]: # (Adicionar o conteúdo do segundo dia da Dev Week 2024)
+Olá pessoal! Hoje estou animado para compartilhar com vocês um pouco da minha experiência durante a Dev Week 2024 em parceria com o Santander. No segundo dia do curso, mergulhamos ainda mais no desenvolvimento da nossa API e aprendemos algumas práticas essenciais.
 
-Anotações do segundo dia da Dev Week 2024: http://127.0.0.1:8080/swagger-ui.html
+Começamos o dia relembrando o que fizemos no primeiro dia, onde nos dedicamos à modelagem da classe principal da nossa aplicação. Foi interessante ver como os atributos foram estruturados e como eles se relacionam com o banco de dados.
+
+Um dos pontos altos do dia foi aprender sobre a arquitetura Clean. Descobri como os modelos não apenas armazenam dados, mas também possuem operações e regras de negócio. Isso foi uma revelação para mim, pois expandiu minha compreensão sobre a estruturação de aplicações.
+
+A parte prática foi incrível! Utilizei o VS Code para criar um adaptador de entrada para nossa API, o que nos permitiu lidar com requisições HTTP de forma eficiente. Implementamos um novo Rest Controller e aprendi como injetar casos de uso para garantir uma separação clara de responsabilidades.
+
+Além disso, aprendi sobre o uso de Records no Java e como eles simplificam a criação de controladores no Spring Boot. Essa foi uma técnica nova para mim, mas que facilitou muito o desenvolvimento.
+
+No final do dia, mergulhamos na implantação da nossa aplicação na nuvem usando o Elastic Beanstalk da AWS. Foi uma experiência emocionante ver nossa API ganhando vida na nuvem e estar pronta para ser [acessada por usuários em todo o mundo](http://sdw24.sa-east-1.elasticbeanstalk.com/swagger-ui/index.html#/Campe%C3%B5es/askChampion). [E para o acesso local](http://127.0.0.1:8080/swagger-ui.html).
+
+Em resumo, o segundo dia do curso foi repleto de aprendizado e práticas valiosas. Estou ansioso para aplicar esses novos conhecimentos em meus projetos futuros e continuar explorando o mundo do desenvolvimento de APIs. Até a próxima aula!
 
 ### <a name="potencializando-sua-api-com-inteligência-artificial-ia"></a>Potencializando sua API com Inteligência Artificial (IA)
 

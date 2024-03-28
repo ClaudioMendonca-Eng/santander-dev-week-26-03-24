@@ -1,6 +1,6 @@
 package me.dio.sdw2024.domain.model;
 
-public record Champions(
+public record Champion(
     Long id,
     String name,
     String role,
@@ -8,7 +8,6 @@ public record Champions(
     String imageUrl
 ) {
     public String generateContextByQuestion(String question) {
-        // return "Champion %s: %s".formatted(name, question);
         return """
                 Pergunta: %s
                 Nome do Campeão: %s

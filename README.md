@@ -32,7 +32,7 @@
 
 ## <a name="sobre-o-projeto"></a>Sobre o Projeto
 
-Neste repositório, você encontrará o código-fonte de uma REST API e seu respectivo Frontend (pasta `/docs`), desenvolvidos durante a Santander Dev Week 2024, fruto de uma colaboração entre a DIO e o Santander. Este projeto, construído com Java 21 e Spring Boot 3, é o resultado de quatro dias de lives, com um propósito singular: 
+Neste repositório, você encontrará o código-fonte de uma REST API e seu respectivo Frontend (pasta `/docs`), desenvolvidos durante a Santander Dev Week 2024, fruto de uma colaboração entre a DIO e o Santander. Este projeto, construído com Java 21 e Spring Boot 3, é o resultado de quatro dias de lives, com um propósito incrível:
 
 > [!NOTE]
 > Objetivo: "Permitir que os usuários conversem com os campeões do League of Legends (LOL)".
@@ -66,23 +66,26 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 
 ## <a name="agenda-das-lives"></a>Agenda das Lives
 
-- 25/03 às 19h | **Iniciando o seu Primeiro Projeto Java do Zero:** 
+1. **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024)** | 25/03 às 19h: 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
-
-- 26/03 às 19h | **Criando uma API com os Campeões do League of Legends:** 
+2. **[Criando uma API com os Campeões do League of Legends](https://web.dio.me/lives/criando-uma-api-com-os-campeoes-do-league-of-legends-santander-dev-week-2024)** | 26/03 às 19h:
 Criação de uma API REST, abordando design, desenvolvimento e documentação, com foco em campeões do League of Legends. Publicação da API no AWS Elastic Beanstalk.
-
-- 27/03 às 19h | **Potencializando sua API com Inteligência Artificial (IA):** 
+3. **[Potencializando sua API com Inteligência Artificial (IA)](https://web.dio.me/lives/potencializando-sua-api-com-inteligencia-artificial-ia-santander-dev-week-2024)** | 27/03 às 19h: 
 Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
-
-- 28/03 às 19h | **Conversando com os Campeões do LoL com HTML, CSS e JavaScript:** 
+4. **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024)** | 28/03 às 19h:
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
+    - Material Complementar Desta Live no [Notion do Felipão](https://helpful-jump-17b.notion.site/Santander-Dev-Week-24-Integra-o-945ebd16b5e3462a9561b6beb6d7587d?pvs=4) 📰
 
-Mais detalhes disponíveis na [Landing Page Oficial da DIO com a Agenda das Lives da Santander Dev Week 2024](https://pages.dio.me/santander-dev-week-2024).
+_Passo a passo para gerar seus **CERTIFICADOS** na plataforma da DIO:_
+- _Ao acessar a live pelo link, basta clicar no botão "Concluir atividade";_
+- _Depois, é só clicar na sua foto de perfil e selecionar a opção "Certificados";_
+- _Pronto! Agora é só baixar seus certificados e compartilhar conosco seu feedback!_
 
 ## <a name="como-participar-dos-bootcamps-santander-2024"></a>Como Participar dos Bootcamps Santander 2024
 
 > [!IMPORTANT] 
+> ## ♨️ Como Participar dos Bootcamps Santander 2024
+>
 > Ainda não garantiu a sua vaga? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 2024](https://bit.ly/48S4DCy)** para uma experiência educacional completa, explorando em detalhes os temas praticados durante a imersão da Santander Dev Week 2024. Nesse sentido, as opções de Bootcamps Santander disponíveis para matrícula na plataforma da DIO são:
 > 
 > 1. [Backend com Java e Spring Boot](https://web.dio.me/track/santander-2024-backend-com-java)

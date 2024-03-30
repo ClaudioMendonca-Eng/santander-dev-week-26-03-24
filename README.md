@@ -275,19 +275,19 @@ Essa jornada de aprendizado foi incrivelmente enriquecedora. Agora me sinto conf
 
 - Iniciando o seu Primeiro Projeto Java do Zero | Santander Dev Week 2024
 
-![](docs/img/01_certificado.png)
+[![Certificado](docs/img/01_certificado.png)](https://www.dio.me/certificate/LZUX2JLI)
 
 - Criando uma API com os Campeões do League of Legends | Santander Dev Week 2024
 
-![](docs/img/02_certificado.png)
+[![Certificado](docs/img/02_certificado.png)](https://www.dio.me/certificate/P8MQ3MXF)
 
 - Potencializando sua API com Inteligência Artificial (IA) | Santander Dev Week 2024
 
-![](docs/img/03_certificado.png)
+[![Certificado](docs/img/03_certificado.png)](https://www.dio.me/certificate/SS8ESYCS)
 
 - Conversando com os Campeões do LoL com HTML, CSS e JavaScript | Santander Dev Week 2024
 
-[![Certificado](docs/img/04_certificado.png)](https://www.dio.me/certificate/SRODO5OP){:target="_blank"}
+[![Certificado](docs/img/04_certificado.png)](https://www.dio.me/certificate/SRODO5OP)
 
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>

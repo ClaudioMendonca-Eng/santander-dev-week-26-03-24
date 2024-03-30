@@ -235,7 +235,21 @@ Em resumo, o segundo dia do curso foi repleto de aprendizado e práticas valiosa
 
 ### <a name="potencializando-sua-api-com-inteligência-artificial-ia"></a>Potencializando sua API com Inteligência Artificial (IA)
 
-[ ]: # (Adicionar o conteúdo do terceiro dia da Dev Week 2024)
+Olá pessoal! Quero compartilhar um pouco da minha jornada durante o curso de Desenvolvimento de Integrações de IA em Java, especialmente focando no terceiro dia, onde finalizamos a configuração do Elastic Beanstalk para colocar nossa API na AWS.
+
+Nos primeiros dias do curso, mergulhamos na modelagem das entidades do sistema, alinhando-as com as tabelas do banco de dados e aprendendo sobre o mapeamento objeto-relacional (ORM) com Java. Com isso, compreendi a importância de nossos modelos não apenas representarem os dados, mas também fornecerem informações relevantes para o contexto do negócio.
+
+No segundo dia, concentramo-nos na exposição desses dados através de controladores REST, criando endpoints para interagir com os campeões do sistema.
+
+No terceiro dia, avançamos para configurar as requisições HTTP para consumir a API generativa, como a OpenAI. Aprendi a definir adequadamente as requisições, escolher o modelo correto, configurar o prompt e adicionar autenticação para acessar a API. Com isso, conseguimos fazer requisições à API e interpretar as respostas, enriquecendo nossa aplicação com funcionalidades de IA.
+
+Além disso, começamos a explorar a integração com uma API externa, especificamente o Google Gemini. Conhecemos a documentação, configuramos o ambiente para acessar a API e implementamos as classes de solicitação e resposta.
+
+Durante todo o curso, utilizei a IDE VSCODE, o que facilitou muito meu trabalho, oferecendo recursos robustos para o desenvolvimento.
+
+No final, após configurar corretamente as requisições HTTP e finalizar a integração com os serviços de IA, aprendi a implantar nossa API na AWS usando o Elastic Beanstalk. Esse processo envolveu a preparação do ambiente, a configuração das variáveis de ambiente e o monitoramento do processo de implantação.
+
+Essa jornada de aprendizado foi incrivelmente enriquecedora. Agora me sinto confiante não apenas em desenvolver APIs eficientes em Java, mas também em integrá-las a serviços de IA para oferecer funcionalidades avançadas aos usuários. Estou ansioso para aplicar todo esse conhecimento em meus projetos futuros e continuar explorando novas tecnologias e práticas de desenvolvimento.
 
 ### <a name="conversando-com-os-campeões-do-lol-com-html-css-e-javascript"></a>Conversando com os Campeões do LoL com HTML, CSS e JavaScript
 
@@ -259,7 +273,21 @@ Em resumo, o segundo dia do curso foi repleto de aprendizado e práticas valiosa
 
 ## <a name="certificados"></a>Certificados
 
-[ ]: # (Adicionar os links dos certificados)
+- Iniciando o seu Primeiro Projeto Java do Zero | Santander Dev Week 2024
+
+![](docs/img/01_certificado.png)
+
+- Criando uma API com os Campeões do League of Legends | Santander Dev Week 2024
+
+![](docs/img/02_certificado.png)
+
+- Potencializando sua API com Inteligência Artificial (IA) | Santander Dev Week 2024
+
+![](docs/img/03_certificado.png)
+
+- Conversando com os Campeões do LoL com HTML, CSS e JavaScript | Santander Dev Week 2024
+
+[![Certificado](docs/img/04_certificado.png)](https://www.dio.me/certificate/SRODO5OP){:target="_blank"}
 
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>

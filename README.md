@@ -207,7 +207,7 @@ Contribuições são sempre bem-vindas! Veja como você pode contribuir:
 
 ### <a name="iniciando-o-seu-primeiro-projeto-java-do-zero"></a>Iniciando o seu Primeiro Projeto Java do Zero
 
-Durante a Dev Week 2024 em parceria com o Santander, tive a oportunidade de participar de um curso introdutório sobre desenvolvimento de software, com foco em Java para backend. Logo no primeiro dia, fomos introduzidos ao Spring Initializr, uma ferramenta fundamental para iniciar projetos Java com Spring Boot, o que facilitou muito o processo de configuração do projeto.
+Durante a Dev Week 2024, em parceria com o Santander, tive a oportunidade de participar de um curso introdutório sobre desenvolvimento de software, com foco em Java para backend. Logo no primeiro dia, fomos introduzidos ao Spring Initializr, uma ferramenta fundamental para iniciar projetos Java com Spring Boot, o que facilitou significativamente o processo de configuração do projeto.
 
 Ao longo do curso, exploramos diversos tópicos importantes, como Clean Architecture, Design de Sistema e integração com APIs externas. Aprendi a estruturar meu projeto de forma clara, separando as camadas de Controller, Casos de Uso e Domínio, e aplicando os princípios da Clean Architecture para manter uma arquitetura limpa e desacoplada.
 

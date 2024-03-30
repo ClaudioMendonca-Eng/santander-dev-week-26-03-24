@@ -30,7 +30,7 @@ const state = {
     champions: [],
   },
   views: {
-    response: document.querySelector(".text-response"),
+    response: document.querySelector(".text-reponse"),
     question: document.getElementById("text-request"),
     avatar: document.getElementById("avatar"),
     carousel: document.getElementById("carousel-cards-content"),
@@ -76,7 +76,44 @@ async function renderChampions() {
 //3. Resetar a tela
 async function onChangeChampionSelected(id, imageUrl) {
   state.views.avatar.style.backgroundImage = `url('${imageUrl}')`;
-  state.values.avatar.dataset.id = id;
+  state.views.avatar.dataset.id = id;
+
+  await resetForm();
+}
+
+async function resetForm(){
+  state.views.question.value = "";
+  state.views.response.textContent = await getRandowQuote();
+}
+
+async function getRandowQuote(){
+  const quotes = [
+    "Manda ver meu nobre!",
+    "Pode vir com a pergunta!",
+    "Estou pronto para responder!",
+    "Pode vir quente que estou fervendo!",
+    "Aguardo sua pergunta! Vamos lá!",
+    "Espero ancioso pela sua pergunta!",
+    "Estou começando a ficar entediado! Manda a pergunta!",
+    "Tenha vidas a salvar, vá depressa com isso!",
+    "Não vai ficar ai o dia todo, vai?",
+    "Talvez seja melhor ir jogar Dota...",
+    "Ainda to tentando entender como essa giringonça funciona...",
+    "Vamos lá, não tenho o dia todo!",
+    "Vamos que vamo meu chapa!",
+  ];
+
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  return quotes[randomIndex];
+}
+
+async function fetchAskChampions() {
+  const id = state.views.avatar.dataset.id;
+  const message = state.views.question.value;
+
+  const response = await apiService.postAskChampion(id, message);
+  state.views.response.textContent = response.answer;
+
 }
 
 async function loadCarrousel() {

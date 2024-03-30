@@ -2,6 +2,7 @@ package me.dio.sdw2024.adapters.in;
 
 import java.util.List;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import me.dio.sdw2024.domain.model.Champion;
 @RequestMapping("/champions")
 public record ListChampionsRestController(ListChampionsUseCase useCase) {
 
+    @CrossOrigin
     @GetMapping
     public List<Champion> findAllChampions() {
         return useCase.findAll();

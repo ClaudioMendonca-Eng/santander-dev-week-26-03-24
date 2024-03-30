@@ -37,11 +37,6 @@ const state = {
   },
 };
 
-//OK - 1. chanmada pra api do lol
-//OK - 2. guardar dados do personagens  
-//3. carregar personagem na tela
-//4. resetar a tela
-
 async function main() {  
   await loadChampions(); 
   await renderChampions();  
@@ -58,7 +53,8 @@ async function renderChampions() {
   const championsData = state.values.champions;
   const elements = championsData.map(
     (character) =>
-    `<div class="timeline-carousel__item">
+    `<div class="timeline-carousel__item"
+    onclick="onChangeChampionSelected(${character.id}, '${character.imageUrl}')">
     <div class="timeline-carousel__image">
       <div class="media-wrapper media-wrapper--overlay"
         style="background: url('${character.imageUrl}') center center; background-size:cover;">
@@ -73,6 +69,14 @@ async function renderChampions() {
   );
 
   state.views.carousel.innerHTML = elements.join("");
+}
+
+//1. Trocar a imagem de fundo do avatar
+//2. Guard o id do personagem selecionado
+//3. Resetar a tela
+async function onChangeChampionSelected(id, imageUrl) {
+  state.views.avatar.style.backgroundImage = `url('${imageUrl}')`;
+  state.values.avatar.dataset.id = id;
 }
 
 async function loadCarrousel() {
@@ -106,3 +110,8 @@ async function loadCarrousel() {
 }
 
 main();
+
+//OK - 1. chanmada pra api do lol
+//OK - 2. guardar dados do personagens  
+//OK - 3. carregar personagem na tela
+//OK - 4. resetar a tela

@@ -1,3 +1,9 @@
+async function exibirTextoNaTela(tag, texto) {
+  let campo = document.querySelector(tag);
+  campo.innerHTML = texto;
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate:2.5});
+}
+
 const routes = {
   champions: "http://sdw24.sa-east-1.elasticbeanstalk.com/champions",
   ask: "http://sdw24.sa-east-1.elasticbeanstalk.com/champions/{id}/ask",
@@ -84,6 +90,8 @@ async function onChangeChampionSelected(id, imageUrl) {
 async function resetForm(){
   state.views.question.value = "";
   state.views.response.textContent = await getRandowQuote();
+
+  exibirTextoNaTela('p', await getRandowQuote());
 }
 
 async function getRandowQuote(){
@@ -115,6 +123,7 @@ async function fetchAskChampions() {
   const response = await apiService.postAskChampion(id, message);
   state.views.response.textContent = response.answer;
   document.body.style.cursor = "default";
+  exibirTextoNaTela('p', await response.answer);
 
 }
 

@@ -108,11 +108,13 @@ async function getRandowQuote(){
 }
 
 async function fetchAskChampions() {
+  document.body.style.cursor = "wait";
   const id = state.views.avatar.dataset.id;
   const message = state.views.question.value;
 
   const response = await apiService.postAskChampion(id, message);
   state.views.response.textContent = response.answer;
+  document.body.style.cursor = "default";
 
 }
 

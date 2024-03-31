@@ -4,8 +4,12 @@
 |:---:|
 | Participei do Santander Dev Week online! Aprendi a criar um Chat Inteligente com os Campeões de LOL usando APIs, Java, Spring Boot, IA e Páginas Web. Ganhei habilidades fullstack com aulas práticas e aumentei minhas chances de contratação.|
 | ![Logo](https://cdn.greatpages.com.br/pages.dio.me-santander-dev-week-2024/1710167332/imagens/desktop/508652_1_170975207481626005.png) |
+| ![Apresentação](./docs/src/img/imagemapresentacao.gif) |
 
 #Java #Spring #POO
+
+## Link do Projeto
+- [Chat com os Campeões do LOL](https://claudiomendonca-eng.github.io/santander-dev-week-26-03-24/)
 
 ## Índice
 <a id="topo"></a>
@@ -217,6 +221,11 @@ Além disso, desenvolvemos casos de uso para interagir com a camada de persistê
 
 Ao longo da semana, continuaremos a desenvolver nosso projeto, explorando temas como a publicação da API na AWS, integração com inteligência artificial e desenvolvimento do frontend. Estou animado para aplicar o que aprendi e continuar minha jornada de aprendizado e evolução como desenvolvedor de software.
 
+<p align="right">
+  <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
+</p>
+
+
 ### <a name="criando-uma-api-com-os-campeões-do-league-of-legends"></a>Criando uma API com os Campeões do League of Legends
 
 Olá pessoal! Hoje estou animado para compartilhar com vocês um pouco da minha experiência durante a Dev Week 2024 em parceria com o Santander. No segundo dia do curso, mergulhamos ainda mais no desenvolvimento da nossa API e aprendemos algumas práticas essenciais.
@@ -232,6 +241,11 @@ Além disso, aprendi sobre o uso de Records no Java e como eles simplificam a cr
 No final do dia, mergulhamos na implantação da nossa aplicação na nuvem usando o Elastic Beanstalk da AWS. Foi uma experiência emocionante ver nossa API ganhando vida na nuvem e estar pronta para ser [acessada por usuários em todo o mundo](http://sdw24.sa-east-1.elasticbeanstalk.com/swagger-ui/index.html#/Campe%C3%B5es/askChampion). [E para o acesso local](http://127.0.0.1:8080/swagger-ui.html).
 
 Em resumo, o segundo dia do curso foi repleto de aprendizado e práticas valiosas. Estou ansioso para aplicar esses novos conhecimentos em meus projetos futuros e continuar explorando o mundo do desenvolvimento de APIs. Até a próxima aula!
+
+<p align="right">
+  <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
+</p>
+
 
 ### <a name="potencializando-sua-api-com-inteligência-artificial-ia"></a>Potencializando sua API com Inteligência Artificial (IA)
 
@@ -251,21 +265,43 @@ No final, após configurar corretamente as requisições HTTP e finalizar a inte
 
 Essa jornada de aprendizado foi incrivelmente enriquecedora. Agora me sinto confiante não apenas em desenvolver APIs eficientes em Java, mas também em integrá-las a serviços de IA para oferecer funcionalidades avançadas aos usuários. Estou ansioso para aplicar todo esse conhecimento em meus projetos futuros e continuar explorando novas tecnologias e práticas de desenvolvimento.
 
+<p align="right">
+  <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
+</p>
+
+
 ### <a name="conversando-com-os-campeões-do-lol-com-html-css-e-javascript"></a>Conversando com os Campeões do LoL com HTML, CSS e JavaScript
 
-[ ]: # (Adicionar o conteúdo do último dia da Dev Week 2024)
+Durante o quarto dia do curso de Front-end, tive uma experiência incrível ao explorar práticas fundamentais para construir interfaces de usuário robustas e eficientes. Aprendi a importância de gerenciar o estado da aplicação de forma organizada, utilizando funções explícitas e dividindo tarefas complexas em partes menores e reutilizáveis.
+
+A renderização dos elementos na tela também foi abordada de maneira detalhada, destacando a modularização do código e a melhoria de desempenho através da construção dos elementos em memória antes de injetá-los na DOM.
+
+A interação com APIs de forma assíncrona foi outro ponto crucial, onde aprendi a fazer chamadas para APIs externas de maneira eficiente, utilizando palavras-chave como async e await em JavaScript. Além disso, compreendi a importância da reutilização de código para tornar o desenvolvimento mais ágil e organizado.
+
+Durante a jornada, enfrentei desafios típicos de desenvolvimento, como identificar e resolver erros no código. Utilizei ferramentas como o console do navegador e o Swagger para diagnosticar problemas e corrigi-los com eficiência. A colaboração em grupo também se mostrou valiosa, permitindo discutir ideias e encontrar soluções de forma colaborativa.
+
+Ao final do curso, percebi a importância de manter o código limpo, organizado e seguir boas práticas de desenvolvimento. Estou animado para aplicar os conhecimentos adquiridos em projetos futuros e continuar aprimorando minhas habilidades no desenvolvimento front-end.
+
+Se surgirem dúvidas ou desafios, sei que posso contar com a comunidade e os recursos disponíveis para continuar aprendendo e evoluindo na minha jornada como desenvolvedor front-end. Vamos continuar aprendendo juntos e construindo interfaces incríveis!
+
+Além disso, durante minha jornada, acrescentei um recurso de leitura de texto em voz através do site [responsivevoice.org](responsivevoice.org) para tornar a experiência mais acessível e dinâmica. Também corrigi um problema de conexão com a API utilizando o serviço [https://cors-anywhere.herokuapp.com](https://cors-anywhere.herokuapp.com) para contornar as restrições de CORS, permitindo assim a compatibilidade com o GitHub Pages, que requer protocolo HTTPS para funcionar corretamente.
 
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 
 ## <a name="considerações-finais"></a>Considerações Finais
 
-[ ]: # (Adicionar considerações finais do projeto)
+Após uma semana intensa de aprendizado na Dev Week 2024 em parceria com o Santander, estou incrivelmente satisfeito com tudo o que foi alcançado. Desde os fundamentos do desenvolvimento Java até a criação de APIs, integrações de IA e desenvolvimento front-end, cada dia foi uma oportunidade de crescimento e descoberta.
 
-<p align="right">
-  <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
-</p>
+No curso "Iniciando o seu Primeiro Projeto Java do Zero", aprendi a estruturar um projeto de forma clara e organizada, aplicando princípios de Clean Architecture e integrando APIs externas de maneira eficiente. Com a publicação da API na AWS, pude ver meu projeto ganhar vida na nuvem, pronto para ser acessado por usuários em todo o mundo.
 
+Explorando o desenvolvimento de APIs com os Campeões do League of Legends, mergulhei na criação de endpoints REST, integração com serviços de IA e implantação na AWS. Essa experiência me deixou confiante não apenas em desenvolver soluções robustas, mas também em integrar tecnologias avançadas para oferecer funcionalidades inovadoras.
+
+No curso de Front-end, descobri a importância da modularização do código, aprimorando a renderização dos elementos na tela e dominando a interação com APIs de forma assíncrona. A colaboração em grupo foi fundamental para superar desafios e encontrar soluções de maneira colaborativa.
+
+Além disso, durante minha jornada, adicionei recursos extras ao projeto, como leitura de texto em voz, e resolvi problemas de conexão com a API, demonstrando minha capacidade de resolver problemas e adaptar-me a diferentes situações.
+
+Estou animado para aplicar todo esse conhecimento em meus projetos futuros e continuar aprimorando minhas habilidades como desenvolvedor. Sei que posso contar com a comunidade e os recursos disponíveis para continuar aprendendo e evoluindo na minha jornada. Vamos continuar aprendendo juntos e construindo soluções incríveis!
 
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>

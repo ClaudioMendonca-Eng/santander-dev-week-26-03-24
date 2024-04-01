@@ -5,8 +5,8 @@ async function exibirTextoNaTela(tag, texto) {
 }
 
 const routes = {
-  champions: "https://cors-anywhere.herokuapp.com/http://sdw24.sa-east-1.elasticbeanstalk.com/champions",
-  ask: "https://cors-anywhere.herokuapp.com/http://sdw24.sa-east-1.elasticbeanstalk.com/champions/{id}/ask",
+  champions: "https://cors-anywhere.herokuapp.com/http://sdw24.us-east-1.elasticbeanstalk.com/lol-api/champions",
+  ask: "https://cors-anywhere.herokuapp.com/http://sdw24.us-east-1.elasticbeanstalk.com/lol-api/champions/3/ask",
 };
 
 const apiService = {

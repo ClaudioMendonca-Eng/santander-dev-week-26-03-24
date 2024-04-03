@@ -56,6 +56,8 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 
 - [Venilton FalvoJr](https://github.com/falvojr) - Doutorando no ICMC-USP, onde contribui junto ao CAEd. Atualmente é Tech Lead na DIO (dio.me), uma edtech que visa democratizar o ensino e capacitação em TI.
 
+- [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) - Desenvolvedor de Software na DIO (Digital Innovation One), com experiência em desenvolvimento de aplicações web e mobile.Software Consultant developer 🚀 10+ Anos desenvolvendo aplicações Web.
+
 ## <a name="pré-requisitos"></a>Pré-Requisitos
 
 > [!TIP]

@@ -5,11 +5,12 @@ async function exibirTextoNaTela(tag, texto) {
 }
 
 const routes = {
-  champions: "https://cors-anywhere.herokuapp.com/http://sdw24.sa-east-1.elasticbeanstalk.com/champions",
-  ask: "https://cors-anywhere.herokuapp.com/http://sdw24.sa-east-1.elasticbeanstalk.com/champions/{id}/ask",
+  champions: "https://cors-proxy.fringe.zone/http://sdw24.sa-east-1.elasticbeanstalk.com/champions",
+  ask: "https://cors-proxy.fringe.zone/http://sdw24.sa-east-1.elasticbeanstalk.com/champions/{id}/ask",
 };
 
-// cors alternativos ==> https://cors-server.fly.dev/ ou https://cors-anywhere.herokuapp.com/
+// cors alternativos ==> https://cors-anywhere.herokuapp.com/ 
+// https://cors-server.fly.dev/ ou https://cors-proxy.fringe.zone/
 
 const apiService = {
   async getChampions() {
@@ -49,7 +50,8 @@ async function main() {
   await loadChampions(); 
   await renderChampions();  
   await loadCarrousel();
-} 
+}
+
 
 async function loadChampions() {
   const data = await apiService.

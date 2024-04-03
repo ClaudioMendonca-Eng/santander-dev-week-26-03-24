@@ -9,6 +9,8 @@ const routes = {
   ask: "https://cors-server.fly.dev/http://sdw24.sa-east-1.elasticbeanstalk.com/champions/{id}/ask",
 };
 
+// cors alternativos ==> https://cors-server.fly.dev/ ou https://cors-anywhere.herokuapp.com/
+
 const apiService = {
   async getChampions() {
     const route = routes.champions;

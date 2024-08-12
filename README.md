@@ -85,30 +85,13 @@ version: '3.8'
 services:
   app:
     image: openjdk:11
-    container_name: openai_chat_api
+    container_name: gradle_app
     volumes:
       - .:/app
     working_dir: /app
-    command: ["./mvnw", "spring-boot:run"]
+    command: ["./gradlew", "bootRun"]
     ports:
       - "8080:8080"
-    depends_on:
-      - db
-
-  db:
-    image: postgres:13
-    container_name: postgres_db
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: mydatabase
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-volumes:
-  postgres_data:
 ```
 
 

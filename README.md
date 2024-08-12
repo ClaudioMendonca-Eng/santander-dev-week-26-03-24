@@ -84,14 +84,25 @@ version: '3.8'
 
 services:
   app:
-    image: openjdk:11
-    container_name: gradle_app
+    image: openjdk:21-jdk
+    container_name: spring_app
+    ports:
+      - "8080:8080"
     volumes:
       - .:/app
     working_dir: /app
-    command: ["./gradlew", "bootRun"]
+    command: ./gradlew bootRun
+    depends_on:
+      - h2db
+
+  h2db:
+    image: oscarfonts/h2
+    container_name: h2_database
     ports:
-      - "8080:8080"
+      - "9092:9092"
+      - "8082:8082"
+    environment:
+      H2_OPTIONS: '-tcp -tcpAllowOthers -web -webAllowOthers'
 ```
 
 
